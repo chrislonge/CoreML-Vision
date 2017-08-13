@@ -11,7 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     // MARK: - IBOutlets
-
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var resultLabel: UILabel!
+    @IBOutlet weak var selectImageButton: UIButton!
+    @IBOutlet weak var modelSegmentedControl: UISegmentedControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,5 +25,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    // MARK: - Actions
+    
+    
 }
 
